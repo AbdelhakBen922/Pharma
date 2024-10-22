@@ -1,0 +1,52 @@
+.PeriodFilter{
+    display: flex;
+    flex-direction: row;
+    margin: 0px  330px  971px 14.5vw ;   
+    background-color: #013A1212;
+    width: 62.5vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+.PeriodF-element{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    width: 16.566%;
+    height: 50px;
+    margin:0;
+    padding: 0;
+}
+.PeriodF-element .h-line {
+    width: 100%;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: #013A1233;
+}
+.PeriodF-element .period {
+    color: #013A1280;
+    text-align: center;
+    font-size: 18px;
+    margin-left:8%;
+    margin-right: 8%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.PeriodFilter .v-line{
+    width: 1px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(1, 58, 18, 0.10);;
+}
+.PeriodF-element .icon{
+    opacity: 0.5;
+   
+    width: 12px;
+height: 12px;
+}
+ 

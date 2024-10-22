@@ -1,0 +1,134 @@
+/* .Dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1231px;
+    background-color: #013A1212;
+    margin: 50px 0px 0px 209px;
+    position:absolute;
+    height: 973px;
+}
+.layout{
+    border-radius: 25px;
+    margin: 7px;
+    background-color: white;
+}
+.left{
+    margin :0;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:0;
+    width: 899px;
+    height: 973px;
+}
+.right{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 973px;
+}
+.SalesGraph {
+    width: 885px;
+    margin-top: 13px;
+    height: 213px;
+    flex-shrink: 0;
+}
+.OrderChart{
+    width: 432px;
+height: 306px;
+flex-shrink: 0;
+}
+.InventoryChart{
+    width: 432px;
+height: 306px;
+flex-shrink: 0;
+}
+.Top-selling {
+    width: 884px;
+height: 390px;
+flex-shrink: 0;
+}
+.Notifications{
+    width: 299px;
+height: 528px;
+flex-shrink: 0;
+}
+.Undefined{
+    margin-top: 13px;
+    width: 299px;
+height: 405px;
+flex-shrink: 0;
+} */
+.Dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85.5vw;
+    background-color: #013A1212;
+    margin: 50px 0px 0px 14.5vw ;
+    position:absolute;
+    height: 95.02vh;
+    justify-content: space-around;
+}
+.layout{
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 7px;
+    background-color: white;
+}
+.left{
+    margin :0;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 73.03%;
+    height: 100%;
+}
+.right{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 26.97%;
+    height: 100%;
+}
+.SalesGraph {
+    width: 98.5%;
+    margin-top: 13px;
+    height: 21.9%;
+    flex-shrink: 0;
+}
+.OrderChart{
+    width: 48.05%;
+height: 31.5%;
+flex-shrink: 0;
+}
+.InventoryChart{
+    width: 48.05%;
+height: 31.5%;
+flex-shrink: 0;
+}
+.Top-selling {
+    width: 98.5%;
+height: 40%;
+flex-shrink: 0;
+}
+.Notifications{
+    width: 94.5%;
+
+height: 54.3%;
+flex-shrink: 0;
+}
+.Undefined{
+    margin-top: 13px;
+    width: 94.5%;
+height: 42%;
+flex-shrink: 0;
+}
+
+

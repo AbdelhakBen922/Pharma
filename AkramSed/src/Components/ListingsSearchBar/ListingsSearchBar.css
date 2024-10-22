@@ -1,0 +1,50 @@
+.labelContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+
+}
+
+.labelContainer text {
+    color: rgba(1, 58, 18, 0.35);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.searchbar {
+    width: 735px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
+.searchInput {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+.searchIcon {
+
+    width: 20px;
+    height: 20px;
+
+
+
+}

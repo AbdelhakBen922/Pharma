@@ -1,0 +1,102 @@
+/* .Sidebar{
+    width: 209px;
+    height: 1024px;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: #013A1212;
+    display: flex;
+    gap:0;
+    flex-direction: column;
+    
+}
+.Sidebar .logo{
+    color: #000;
+font-family: Quella;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 75px;
+height: 38px;
+margin:38px 67px 34px 55px ;
+}
+.sidebar-element {
+    
+    display: inline-flex;
+    padding: 15px 0 15px 27px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 16px;
+    
+    margin:0;
+    border-radius: 5px;
+    color :#013A1240;
+}
+.sidebar-element .logo{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0.25;
+}
+.sidebar-element .title{
+    margin: 0;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+ /* Sidebar Container */
+.Sidebar{
+    width: 14.5vw;
+    height: 100vh;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: #013A1212;
+    display: flex;
+    gap:0;
+    flex-direction: column;
+    
+}
+.Sidebar .logo{
+    color: #000;
+font-family: Quella;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 75px;
+height: 38px;
+margin:38px 67px 34px 55px ;
+}
+.sidebar-element {
+    
+    display: inline-flex;
+    padding: 15px 0 15px 27px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 16px;
+    
+    margin:0;
+    border-radius: 5px;
+    color :#013A1240;
+}
+.sidebar-element .logo{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0.25;
+}
+.sidebar-element .title{
+    margin: 0;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

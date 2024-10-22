@@ -1,0 +1,85 @@
+/* Style for the card container */
+.card {
+    display: flex;
+    align-items: center;
+    width: 215px;
+    height: 58px;
+    flex-shrink: 0;
+    position: fixed;
+    right: 138px;
+    /* Adjust space from the right */
+}
+
+/* Style for the circular div (avatar) */
+.avatar {
+    background-color: #D9D9D9;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 13px;
+    margin-left: 12px;
+}
+
+/* Style for the content on the right */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Style for the name text */
+.name {
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Style for the role text */
+.role {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Styling for the navbar */
+.Header {
+    
+    position: fixed;
+    left: 219px;
+    background: linear-gradient(0deg, rgba(1, 58, 18, 0.07), rgba(1, 58, 18, 0.07)), #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1221px;
+    height: 58px;
+    padding: 7px 0 0 0;
+    
+}
+
+/* Styling for icon section */
+.icons {
+    display: flex;
+    gap: 22px;
+    margin-left: 410px;
+}
+
+/* Styling for logout icon */
+.Logout-icon {
+    position: fixed;
+    right: 54px;
+}
+
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Importing the DM Sans font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');

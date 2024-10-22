@@ -1,0 +1,44 @@
+.TableContainer {
+    position: fixed;
+    width: 1221px;
+    top:145px;
+    right: 0;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.heading{
+    height: 29px;
+    
+    color: #000;
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.headContainer{
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.lineBreak {
+    height: 1px;
+    width: 1221px;
+    background-color: rgba(4, 4, 4, 0.20);
+
+}
+.section {
+    height: 112px;
+}
+.sideBar{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 219px;
+    background: linear-gradient(0deg, rgba(1, 58, 18, 0.07), rgba(1, 58, 18, 0.07)), #FFF;
+}

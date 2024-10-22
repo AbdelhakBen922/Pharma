@@ -1,15 +1,18 @@
 import BarElement from "./BarElement"
 import DollarIcon from "../assets/coin.png"
 import sortIcon from "../assets/sort.png"
+import "./Inventory.css"
 function Inventory() {
     return (
+        <div className="bg">
         <div className="inventory">
             <div className="FirstRow">
                 <div className="revenue">
-                    <div className="IcondTitle">
+                    <div className="IconTitle">
                         <img src={DollarIcon} className="Icon"></img>
                         <h2 className="title">Total Monthly Revenue</h2>
                     </div>
+                    <h1 className="revenueValue">10,000.00 DZD</h1>
                 </div>
                 <div className="v line"></div>
                 <div className="ProductSum">
@@ -52,6 +55,7 @@ function Inventory() {
                     <BarElement className="Actions" title='Actions'/>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

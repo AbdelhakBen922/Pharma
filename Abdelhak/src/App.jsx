@@ -5,15 +5,14 @@ import './App.css'
 import Sidebar from './components/Sidebar'
 import PeriodFilter from './components/PeriodFilter'
 import Dashboard from './components/Dashboard'
-
+import Inventory from './components/Inventory'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
       <Sidebar />
-      <PeriodFilter />
-      <Dashboard />
+      <Inventory />
     </div>
   )
 }

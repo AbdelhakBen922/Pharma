@@ -1,0 +1,90 @@
+.bg{
+    width: 85.5vw;
+    background-color: #013A1212;
+    margin-left: 14.5vw ;
+    position:absolute;
+    height: 100vh;
+}
+.inventory{
+    background: rgba(161, 161, 161, 0.15);
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+.FirstRow{
+    display :flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 18%;
+}
+.revenue{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin : 24px 28px 16px 54px;
+    width: 33.22%;
+    justify-content: space-between;
+}
+.IconTitle{
+    display :flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.IconTitle .Icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.IconTitle .title {
+    color: rgba(0, 0, 0, 0.50);
+text-align: start;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 7px;
+}
+.revenueValue{
+    color: #000;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 291px;
+height: 70px;
+margin:auto 0px 16px  79px ;
+}
+.line {
+    background: rgba(161, 161, 161, 0.15);
+}
+.v{
+    width: 1px;
+height: 54.8%;
+flex-shrink: 0;
+margin:66px 28px  9px 21px ;
+}
+.ProductSum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 66.77%;
+    height:100%;
+}
+.ProductsNum{
+    color: #000;
+    text-align: start;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 50px auto  21px 44px;
+}

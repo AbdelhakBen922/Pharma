@@ -1,6 +1,7 @@
 import BarElement from "./BarElement"
 import DollarIcon from "../assets/coin.png"
 import sortIcon from "../assets/sort.png"
+import SearchBar from "./SearchBar"
 import "./Inventory.css"
 function Inventory() {
     return (
@@ -41,7 +42,7 @@ function Inventory() {
             <div className="h line"></div>
             <div className="SecondRow">
                 <h2 className="PageTitle">Inventory</h2>
-                <div className="SearchBar"></div>
+                <SearchBar className="SearchBar"></SearchBar>
                 <div className="FilterButton"></div>
             </div>
             <div className="ThirdRow">

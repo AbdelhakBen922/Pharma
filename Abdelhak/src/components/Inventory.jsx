@@ -55,6 +55,18 @@ function Inventory() {
                     <BarElement className="SellPrice" title="Sell Price" IconPath={sortIcon} />
                     <BarElement className="Actions" title='Actions'/>
                 </div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+                <div className="H-line"></div>
+
             </div>
         </div>
         </div>

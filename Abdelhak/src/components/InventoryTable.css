@@ -1,0 +1,33 @@
+.TableContainer {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.bar-element{
+    
+        align-items: center;
+        justify-content: center;
+        display:flex;
+        flex-wrap: wrap;
+        width: 16.566%;
+        height: 50px;
+        margin:0;
+        padding: 0;
+    
+}
+.headContainer{
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.lineBreak {
+    height: 1px;
+    width: 1221px;
+    background-color: rgba(4, 4, 4, 0.20);
+
+}
+.section {
+    height: auto;
+}
